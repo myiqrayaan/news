@@ -1,6 +1,6 @@
-# news
+# News
 
-A new Flutter project for displayinf news product.
+A new Flutter project for displaying news product.
 
 ## Getting Started
 
