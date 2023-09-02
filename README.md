@@ -1,16 +1,12 @@
 # news
 
-A new Flutter project.
+A new Flutter project for displayinf news product.
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+This project is a regarding world news in flutter android app.
 
-A few resources to get you started if this is your first Flutter project:
+A few points for starting out news app project:
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+- [NewsApi](https://newsapi.org/)
+- Each api call is made via http library in flutter
