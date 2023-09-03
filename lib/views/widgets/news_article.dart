@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:news/views/pages/read_more_page.dart';
 
 class NewsArticle extends StatelessWidget {
   const NewsArticle({
@@ -54,7 +55,11 @@ class NewsArticle extends StatelessWidget {
           child: Padding(
             padding: const EdgeInsets.all(20.0),
             child: ElevatedButton(
-              onPressed: () {},
+              onPressed: () {
+                Navigator.of(context).push(MaterialPageRoute(
+                  builder: (context) => ReadMorePage(url: url),
+                ));
+              },
               child: const Text("Read More"),
             ),
           ),
